@@ -135,14 +135,3 @@ table, and a table with no headers at all (to see the "skipped" path).
 ```bash
 python -m unittest discover -s tests -v
 ```
-
-## License
-
-AGPL-3.0-or-later — see `LICENSE`. This means: anyone can use, modify, and
-redistribute this freely, but if you run a modified version of it as a
-network service, you must make the source of your modified version
-available to the people using that service (that's what distinguishes
-AGPL from plain GPL). The "-or-later" means you're not locked to version
-3 specifically — you (or anyone downstream) may instead apply the terms
-of any later version the FSF publishes, per the standard clause in
-`LICENSE` itself.
