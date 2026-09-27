@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "table-a11y"
+version = "0.1.0"
+description = "Add missing scope/id/headers attributes to HTML data tables, including tables with multi-level or spanning headers, for screen-reader accessibility."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "AGPL-3.0-or-later" }
+dependencies = []
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+]
+
+[project.scripts]
+table-a11y = "table_a11y.cli:main"
+
+[tool.setuptools]
+packages = ["table_a11y"]
