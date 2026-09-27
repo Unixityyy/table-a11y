@@ -1,3 +1,7 @@
+[![PyPI](https://img.shields.io/pypi/v/table-a11y)](https://pypi.org/project/table-a11y/)
+[![License: AGPL v3+](https://img.shields.io/badge/license-AGPL--3.0--or--later-blue)](LICENSE)
+[![Python](https://img.shields.io/pypi/pyversions/table-a11y)](https://pypi.org/project/table-a11y/)
+
 # table-a11y
 
 Add the missing `scope` / `id` / `headers` attributes to HTML `<table>`
